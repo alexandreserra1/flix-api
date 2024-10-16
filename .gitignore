@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição / empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+.env/
+.ENV/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Arquivos de migração do Django
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Configurações de ambiente
+.env
+.env.*
+
+# Ferramentas de gerenciamento de dependências
+Pipfile.lock
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Arquivos de cache
+*.cache
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Arquivos de teste
+.coverage
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Outros arquivos
+*.pid
+*.seed
+*.mo
+*.pot
